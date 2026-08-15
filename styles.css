@@ -1,0 +1,47 @@
+:root {
+	--tunic-glyph-size: 2.5;
+}
+
+.tunic-glyph-box {
+	padding-block-start: 0.5em;
+}
+
+.tunic-row {
+	--tunic-glyph-width: calc(var(--tunic-glyph-size) * 1em);
+	--tunic-glyph-height: calc(var(--tunic-glyph-width) * 88 / 56);
+	--tunic-small-space-width: calc(var(--tunic-glyph-width) / 2);
+	--tunic-large-space-width: var(--tunic-glyph-width);
+	--tunic-glyph-overlap: calc(-22.5 / 226 * var(--tunic-glyph-width)); /* 22.5 obtained through trial and error */
+
+	display: flex;
+	align-items: flex-start;
+	overflow-x: scroll;
+}
+
+.tunic-glyph,
+.tunic-glyph-spacer {
+	flex: 0 0 auto;
+}
+
+.tunic-glyph {
+	width: var(--tunic-glyph-width);
+	aspect-ratio: 56 / 88;
+	height: auto;
+	display: block;
+}
+
+.tunic-glyph-spacer {
+	height: var(--tunic-glyph-height);
+}
+
+.tunic-space-small {
+	width: var(--tunic-small-space-width);
+}
+
+.tunic-space-large {
+	width: var(--tunic-large-space-width);
+}
+
+.tunic-glyph-overlap {
+	margin-left: var(--tunic-glyph-overlap);
+}

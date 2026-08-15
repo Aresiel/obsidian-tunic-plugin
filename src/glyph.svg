@@ -1,0 +1,46 @@
+<svg
+	xmlns="http://www.w3.org/2000/svg"
+	viewBox="47 12 226 351"
+>
+	<g
+		fill="none"
+		stroke="black"
+		stroke-width="16"
+		stroke-linecap="round"
+		stroke-linejoin="round"
+		transform="translate(0,0)"
+	>
+		<!-- Top -->
+		<line x1="160" y1="20" x2="55" y2="80"/>
+		<line x1="160" y1="20" x2="265" y2="80"/>
+
+		<line x1="55" y1="80" x2="160" y2="140"/>
+		<line x1="160" y1="140" x2="265" y2="80"/>
+
+		<line x1="55" y1="80" x2="55" y2="175"/>
+		<line x1="265" y1="80" x2="265" y2="175"/>
+
+		<!-- Central top line -->
+		<line x1="160" y1="30" x2="160" y2="140"/>
+		<line x1="160" y1="140" x2="160" y2="175"/>
+
+		<!-- Divider Line -->
+		<line x1="55" y1="175" x2="265" y2="175" />
+
+		<!-- Bottom -->
+		<line x1="160" y1="210" x2="55" y2="270"/>
+		<line x1="160" y1="210" x2="265" y2="270"/>
+
+		<line x1="55" y1="270" x2="160" y2="330"/>
+		<line x1="160" y1="330" x2="265" y2="270"/>
+
+		<line x1="55" y1="210" x2="55" y2="270"/>
+		<line x1="265" y1="210" x2="265" y2="270"/>
+
+		<!-- Central bottom line -->
+		<line x1="160" y1="210" x2="160" y2="330"/>
+
+		<!-- Circle -->
+		<circle cx="160" cy="350" r="20"/>
+	</g>
+</svg>

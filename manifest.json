@@ -1,0 +1,11 @@
+{
+	"id": "obsidian-tunic-plugin",
+	"name": "Tunic Plugin",
+	"version": "1.0.0",
+	"minAppVersion": "1.0.0",
+	"description": "A plugin for rendering Tunic's conlang.",
+	"author": "Aresiel",
+	"authorUrl": "https://aresiel.dev",
+	"fundingUrl": "",
+	"isDesktopOnly": false
+}
