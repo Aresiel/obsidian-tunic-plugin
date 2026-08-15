@@ -1,6 +1,6 @@
 {
 	"id": "tunic-lang",
-	"name": "Tunic Plugin",
+	"name": "Tunic Lang",
 	"version": "1.0.0",
 	"minAppVersion": "1.0.0",
 	"description": "A plugin for rendering Tunic's conlang.",
